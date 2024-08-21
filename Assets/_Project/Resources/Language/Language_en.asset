@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 999e4f23a6a0900409810742f84b0438, type: 3}
+  m_Name: Language_en
+  m_EditorClassIdentifier: 
+  languageID: 1
+  LoadingText: LOADING
+  PlayText: PLAY
+  LevelCompletedText: LEVEL COMPLETED
+  ClaimRewardsText: CLAIM X2
+  NoThanksText: NO THANKS
+  LevelFailedText: LEVEL FAILED
+  NextLevel: SKIP LEVEL
+  LevelText: LEVEL
+  LevelShortText: Lv.
+  UnlockRandomText: UNLOCK RANDOM
+  TryAgainText: TRY AGAIN
+  ContinueText: CONTINUE
+  GameLaunchCounterText: 'Game Launch Counter:'

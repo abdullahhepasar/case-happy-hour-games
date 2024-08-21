@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7627715709488287889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3815743210007257202}
+  - component: {fileID: -4831991027247602325}
+  m_Layer: 0
+  m_Name: EDIT_Enum_IDs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3815743210007257202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627715709488287889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -61.384403, y: 16.870134, z: -887.14636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4831991027247602325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627715709488287889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec976ca0d744074ea6a65ba6f8de340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enums:
+  - EnumName: VariableID
+    GUIColor: {r: 0.93818814, g: 1, b: 0.5707547, a: 1}
+    IDs:
+    - MN
+    - GD
+    - Empty
+    - ResWood
+    - GameLaunchCounter
+    - Wood1
+    Active: 1
+  - EnumName: SoundID
+    GUIColor: {r: 1, g: 0.48584908, b: 0.48584908, a: 1}
+    IDs:
+    - Click
+    Active: 0
+  - EnumName: LanguageID
+    GUIColor: {r: 1, g: 0.48584908, b: 0.71237904, a: 1}
+    IDs:
+    - tr
+    - en
+    - pt
+    - es
+    - de
+    - ru
+    - fr
+    Active: 0
+  - EnumName: LevelVariation
+    GUIColor: {r: 0.8835171, g: 0.48584908, b: 1, a: 1}
+    IDs:
+    - Default
+    - Shifter
+    Active: 0
+  - EnumName: UIPrefabNames
+    GUIColor: {r: 0.834805, g: 0.7688679, b: 1, a: 1}
+    IDs:
+    - None
+    - MainMenu
+    - LevelSuccess
+    - LevelFail
+    - GamePlay
+    - PopupSettings
+    Active: 0
+  - EnumName: VFXCategory
+    GUIColor: {r: 0.5518868, g: 0.6771067, b: 1, a: 1}
+    IDs:
+    - Category1
+    Active: 0
+  - EnumName: VFXID
+    GUIColor: {r: 0.5613208, g: 0.8431139, b: 1, a: 1}
+    IDs:
+    - None
+    - Id1
+    Active: 0
+  - EnumName: VibrateIOSAdvancedID
+    GUIColor: {r: 0.5801887, g: 0.93913376, b: 1, a: 1}
+    IDs:
+    - None
+    - V_1
+    Active: 0
+  - EnumName: UIInteractID
+    GUIColor: {r: 0.3160377, g: 1, b: 0.73240423, a: 1}
+    IDs:
+    - None
+    - ID1
+    - ID2
+    - ID3
+    - ID4
+    - ID5
+    - ID6
+    - ID7
+    Active: 0

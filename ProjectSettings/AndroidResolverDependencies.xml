@@ -1,0 +1,44 @@
+<dependencies>
+  <packages>
+    <package>androidx.recyclerview:recyclerview:1.2.1</package>
+    <package>com.android.support:appcompat-v7:25.3.1</package>
+    <package>com.android.support:cardview-v7:25.3.1</package>
+    <package>com.android.support:customtabs:25.3.1</package>
+    <package>com.android.support:support-v4:25.3.1</package>
+    <package>com.android.volley:volley:1.2.1</package>
+    <package>com.applovin.mediation:chartboost-adapter:9.2.0.0</package>
+    <package>com.applovin.mediation:facebook-adapter:[6.12.0.2]</package>
+    <package>com.applovin.mediation:fyber-adapter:8.2.1.2</package>
+    <package>com.applovin.mediation:ironsource-adapter:7.2.7.0.0</package>
+    <package>com.applovin.mediation:mintegral-adapter:16.3.61.0</package>
+    <package>com.applovin.mediation:unityads-adapter:4.5.0.2</package>
+    <package>com.applovin.mediation:vungle-adapter:6.12.1.0</package>
+    <package>com.applovin:applovin-sdk:11.7.1</package>
+    <package>com.facebook.android:facebook-applinks:[11.0, 12)</package>
+    <package>com.facebook.android:facebook-core:[11.0, 12)</package>
+    <package>com.facebook.android:facebook-gamingservices:[11.0, 12)</package>
+    <package>com.facebook.android:facebook-login:[11.0, 12)</package>
+    <package>com.facebook.android:facebook-share:[11.0, 12)</package>
+    <package>com.google.android.gms:play-services-ads-identifier:17.0.0@aar</package>
+    <package>com.google.android.gms:play-services-base:16.1.0</package>
+    <package>com.google.android.gms:play-services-basement:17.5.0@aar</package>
+    <package>com.parse.bolts:bolts-android:1.4.0</package>
+    <package>com.squareup.picasso:picasso:2.71828</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.zerosum.foodymatch3d" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>

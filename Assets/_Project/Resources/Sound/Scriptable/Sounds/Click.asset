@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f8542287e3cc0458a83bb986869b28, type: 3}
+  m_Name: Click
+  m_EditorClassIdentifier: 
+  soundID: 0
+  audioClipName: click
+  volume: 1
+  loopActive: 0
+  pitchDefault: 1
+  pitchChange: 0.2
+  pitchDelayDeactivateTime: 2
