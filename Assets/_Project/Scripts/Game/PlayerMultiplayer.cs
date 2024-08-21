@@ -132,7 +132,7 @@ public class PlayerMultiplayer : MonoBehaviourPunCallbacks, IPunObservable
 
     #endregion
 
-    #region Private Methods
+    #region public Methods
 
     public void AddResourceData(VariableID id, int value)
     {
